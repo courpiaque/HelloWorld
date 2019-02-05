@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:local="clr-namespace:HelloWorld.Extensions"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.TableView">
+    <TableView Intent="Form">
+        <TableRoot>
+            <TableSection Title="Basics">
+                <TextCell Text="Name" Detail="Bart Kaminsky"/>
+                <EntryCell Label="Title" Placeholder="(eg Shopping)"/>
+                <SwitchCell Text="Notafications" On="true"/>
+                <local:DataCell  Label="Starts"/>
+                <local:DataCell  Label="Ends"/>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>
